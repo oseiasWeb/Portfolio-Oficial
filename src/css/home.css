@@ -1,0 +1,19 @@
+.home .full-screen {
+    min-height: 86vh;
+    padding: 50px 0;
+}
+
+.home .text-home {
+    letter-spacing: 2px;
+}
+
+.home .text-home, .home .img-home {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding: 0 15px;
+}
+
+.home .img-home img {
+    border-radius: 50%;
+}
+
