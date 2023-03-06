@@ -1,0 +1,47 @@
+.header {
+    padding: 3rem 1.5rem;
+}
+
+.header .logo {
+    font-family: var(--fonte-secundaria);
+    font-size: var(--fonte-extra-grande);
+    border: 2px solid var(--cor-branca);
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    line-height: 59px;
+    text-align: center;
+    text-decoration: underline;
+    transition: 0.3s;
+}
+
+.header a:hover .logo {
+    color: var(--cor-primaria);
+    border: 2px solid var(--cor-primaria);
+}
+
+.header nav ul {
+    display: flex;
+}
+
+.header nav li a {
+    text-transform: capitalize;
+    font-size: 2rem;
+    font-weight: 400;
+    padding: 10px 20px;
+    transition: 0.3s ease-in-out;
+    border-radius: 50px;
+    letter-spacing: 1px;
+    user-select: none;
+}
+
+.header nav li a:hover {
+    background-color: var(--cor-primaria);
+}
+
+.header .menu {
+    display: none;
+    width: 60px;
+    height: 60px;
+    align-self: flex-end;
+}
