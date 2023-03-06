@@ -37,7 +37,7 @@ body {
     display: inline-block;
     width: 40px;
     height: 40px;
-    font-size: 2.5rem;
+    font-size: 2rem;
     text-align: center;
     margin: 0 4px;
     border-radius: 50%;
@@ -51,4 +51,8 @@ body {
 
 .redes-sociais a i {
     line-height: 40px;
+}
+
+.outer-shadow {
+    box-shadow: 3px 3px #222327, -3px -3px 3px #454545;    
 }
