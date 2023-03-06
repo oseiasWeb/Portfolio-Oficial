@@ -14,7 +14,6 @@
 }
 
 .home .img-home .img-box {
-    background-color: var(--cor-primaria);
     max-width: 450px;
     margin: auto;
     border-radius: 50%;
@@ -30,6 +29,20 @@
      font-family: var(--fonte-secundaria);
      font-size:  var(--fonte-grande);
      margin-bottom: 10px;
+}
+
+.home .text-home h1 {
+    font-family: var(--fonte-secundaria);
+    font-size: var(--fonte-gigante);
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.home .text-home h2 {
+    font-family: var(--fonte-secundaria);
+    font-size: var(--fonte-grande);
+    letter-spacing: 2px;
+    margin-bottom: 30px;
 }
 
 @media (max-width: 1280px) {
