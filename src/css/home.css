@@ -13,7 +13,31 @@
     padding: 0 15px;
 }
 
-.home .img-home img {
+.home .img-home .img-box {
+    background-color: var(--cor-primaria);
+    max-width: 450px;
+    margin: auto;
     border-radius: 50%;
 }
 
+.home .img-home .img-box img {
+    width: 100%;
+    border-radius: 50%;
+    border: 20px solid transparent;
+}
+
+.home .text-home p {
+     font-family: var(--fonte-secundaria);
+     font-size:  var(--fonte-grande);
+     margin-bottom: 10px;
+}
+
+@media (max-width: 1280px) {
+    .home .text-home, 
+    .home .img-home {
+        flex: 0 0 100%;
+        max-width: 100%;
+        text-align: center;
+        padding: var(--mobile-padding);
+    }
+}
