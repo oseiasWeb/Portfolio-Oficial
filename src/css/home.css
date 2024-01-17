@@ -1,0 +1,104 @@
+.home .full-screen {
+    min-height: 86vh;
+    padding: 50px 0;
+}
+
+.home .text-home {
+    letter-spacing: 2px;
+    
+}
+
+.home .text-home, .home .img-home {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding: 0 15px;
+}
+
+.home .img-home .img-box {
+    max-width: 350px;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.home .img-home .img-box img {
+    width: 100%;
+    border-radius: 50%;
+    border: 16px solid transparent;
+    
+}
+
+.home .text-home p {
+     font-family: var(--fonte-secundaria);
+     font-size:  var(--fonte-grande);
+     margin-bottom: 10px;
+}
+
+.home .text-home h1 {
+    font-family: var(--fonte-secundaria);
+    font-size: var(--fonte-gigante);
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.home .text-home h2 {
+    font-family: var(--fonte-secundaria);
+    font-size: var(--fonte-grande);
+    color: #00D484;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 500px) {
+    .home .text-home p {
+        font-size: 15px;
+    }
+
+    .home .text-home h1 {
+        font-size: 35px;
+    }
+    .home .text-home h2 {
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    .home .container .text-home {
+        margin-top: -40px;
+    }
+
+    
+    .home .container .img-home {
+        margin-top: -28px;
+    }
+
+    .sobre-mim .container{
+        margin-top: -120px;
+    }
+
+    .sobre-mim .section-title h2,
+    .habilidades .section-title h2,
+    .projetos .section-title h2 {
+        font-size: 35px;
+    }
+
+    .sobre-mim .container .informacoes-sobre-mim p {
+        text-align: justify;
+    }
+
+    .habilidades .row{
+        margin-top: -90px;
+    }
+
+    .projetos .row{
+        margin-top: -90px;
+    }
+}
+
+@media (max-width: 1280px) {
+    .home .text-home, 
+    .home .img-home {
+        flex: 0 0 100%;
+        max-width: 100%;
+        text-align: center;
+        padding: var(--mobile-padding);
+    }
+}
